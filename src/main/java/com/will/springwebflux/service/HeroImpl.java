@@ -14,6 +14,16 @@ public class HeroImpl implements HeroService {
     HeroRepository heroRepository;
 
     @Override
+    public Mono<Hero> update(Hero hero) {
+        return heroRepository.save(hero);
+    }
+
+    @Override
+    public Mono<Void> delete(String id) {
+        return heroRepository.deleteById(id);
+    }
+
+    @Override
     public Mono<Hero> findById(String id) {
         return heroRepository.findById(id);
     }

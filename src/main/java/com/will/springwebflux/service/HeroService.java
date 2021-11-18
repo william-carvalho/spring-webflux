@@ -9,6 +9,8 @@ public interface HeroService {
     Mono<Hero> findById(String id);
     Flux<Hero> findAll();
     Mono<Hero> save(Hero hero);
+    Mono<Hero> update(Hero hero);
+    Mono<Void> delete(String id);
 
 
 }
