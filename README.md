@@ -15,7 +15,7 @@
 - Acesse um terminal ou via IDE e execute o seguinte Maven goal
   - `mvn spring-boot:run`
 
-### Docs
+### Referências
 - https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html
 - https://www.baeldung.com/spring-webflux
 - https://howtodoinjava.com/spring-webflux/spring-webflux-tutorial/
